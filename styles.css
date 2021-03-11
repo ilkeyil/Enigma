@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +7,89 @@
 }
 
 body {
-    background: red;
+    background-color: white;
 }
+
+header {
+    background: navajowhite;
+    padding: 20px;
+}
+
+header > h1 {
+    background: navajowhite;
+            /*#25272E;*/
+    color: darkblue;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+header > h2 {
+    margin: 20px;
+    background: navajowhite;
+    /*#25272E;*/
+    color: darkblue;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.plain-board {
+    margin: 30px auto;
+    border: 5px solid darkblue;
+    border-radius: 10pt;
+    width: 1000px;
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+}
+
+.cipher-board {
+    margin: 30px auto;
+    border: 5px solid darkblue;
+    border-radius: 10pt;
+    width: 1000px;
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+}
+
+.plain {
+    font-family: Asap, sans-serif;
+    background-color: cornflowerblue;
+}
+
+.cipher {
+    font-family: Asap, sans-serif;
+    background-color: red;
+}
+
+#plaintext-label {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+#ciphertext-label {
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+}
+
+.inputs {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.input {
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.input:hover {
+    cursor: pointer;
+    background: yellowgreen;
+}
+
